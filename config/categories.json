@@ -1,0 +1,14 @@
+[
+  {"name": "Produits gourmands", "id": 650},
+  {"name": "Beauté — Bien-être", "id": 1074},
+  {"name": "Maison — déco", "id": 1085},
+  {"name": "Transports — voyages", "id": 1122},
+  {"name": "Restaurants", "id": 1165},
+  {"name": "Hébergements", "id": 1166},
+  {"name": "Shopping", "id": 1168},
+  {"name": "Sortir", "id": 1169},
+  {"name": "Sport — loisirs", "id": 1171},
+  {"name": "Services (pense-futé)", "id": 1172},
+  {"name": "Visites", "id": 1173},
+  {"name": "Coquin", "id": 9998}
+]

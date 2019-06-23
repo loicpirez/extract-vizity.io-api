@@ -1,0 +1,26 @@
+{
+  "Beijing": {
+    "id": 43997,
+    "categories": ["Restaurants", "Sortir", "Visites"]
+  },
+  "Hong-Kong": {
+    "id": 44114,
+    "categories": ["Visites"]
+  },
+  "Xi'an": {
+    "id": 65734,
+    "categories": ["Sortir"]
+  },
+  "Guangzhou": {
+    "id": 44061,
+    "categories": ["Restaurants"]
+  },
+  "Chengdu": {
+    "id": 44033,
+    "categories": ["Sortir", "Visites"]
+  },
+  "Guilin": {
+    "id": 44091,
+    "categories": ["Restaurants"]
+  }
+}

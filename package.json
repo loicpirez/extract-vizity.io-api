@@ -1,0 +1,35 @@
+{
+  "name": "extract-vizity.io-api",
+  "version": "1.0.0",
+  "description": "Simple tool to extract places on vitizy.io API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run build && node dist",
+    "watch": "babel-watch src/index.js",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loïc PIREZ",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-watch": "^7.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "dotenv": "^8.0.0",
+    "lodash": "^4.17.11",
+    "sync-request": "^6.1.0"
+  }
+}
