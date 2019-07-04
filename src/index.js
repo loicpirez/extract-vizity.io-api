@@ -3,7 +3,7 @@
 import readConfig from './config'
 import getApiUrls from './get-api-urls'
 import formatApiResult from './format-api-result'
-import request from 'sync-request'
+import request from 'syncrequest'
 import fs from 'fs'
 import path from 'path'
 
@@ -13,7 +13,7 @@ Object.keys(config.towns).forEach(town => {
   json[town] = getApiUrls(config, town).map((data) => {
     let category = data[0]
     let url = data[1]
-    const response = formatApiResult(JSON.parse(request('GET', url).getBody('utf8')))
+    const response = formatApiResult(JSON.parse(request.sync(url).body))
     return {
       [category]: response
     }
